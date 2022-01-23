@@ -5,6 +5,17 @@
     border-radius: 20px;
     color: white;
     box-shadow: 0px 10px 20px #4169e1;
-      
+    position: relative;
+
+}
+
+.hot-badge{
+    position: absolute;
+    background-color: orangered;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 20px;
+    top: -10px;
+    right: 20px;
 
 }
