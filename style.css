@@ -24,20 +24,30 @@
     padding: 5px 25px;
 }
 
+.pakages-cards{
 
+    min-height: 550px;
+       
+}
 .card-custom-style{
     background-color:#e7f1ff;
     border-radius: 10px;
+    
 }
 
 .highlited-card{
-    margin: 30px 0;
+    height: 500px;
     background-color: #4169e1;
     border-radius: 20px;
     color: white;
     box-shadow: 0px 10px 30px #4169e1;
     position: relative;
+    
 
+}
+
+.highlited-card-btn{
+    margin-top: 45px;
 }
 
 .hot-badge{
