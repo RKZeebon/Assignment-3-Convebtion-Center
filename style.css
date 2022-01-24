@@ -1,4 +1,30 @@
 
+.nav-area{
+    height: 65px;
+}
+
+.carousel-custom-style::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+}
+.carousel-custom-style img{
+    height: calc(100vh - 65px);
+}
+
+.btn-custom-style{
+    background-color: #4169e1;
+    color: white;
+    font-weight: bold;
+    padding: 5px 25px;
+}
+
 .highlited-card{
     height: 430px;
     background-color: #4169e1;
@@ -19,7 +45,20 @@
     right: 20px;
 
 }
+.card-btn{
+    background-color: #fef5fa;
+    color: #4169e1;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 20px;
+}
 
+.map-area{
+    background-color: #4169e1;
+    color: white;
+    padding: 15px 10px;
+    
+}
 .footer-custom-style{
 
     height: 300px;
