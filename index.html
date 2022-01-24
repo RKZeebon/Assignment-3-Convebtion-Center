@@ -212,13 +212,13 @@
                 </div>
             </div>
             <!-- Toast -->
-            <div class="toast align-items-center toast-custom-style" role="alert" aria-live="assertive"
-                aria-atomic="true">
+            <div class="toast show align-items-center text-white bg-primary border-0 toast-custom-style" role="alert"
+                aria-live="assertive" aria-atomic="true">
                 <div class="d-flex">
                     <div class="toast-body">
-                        <span><i class="fas fa-gift pe-2"></i> 20% off on next booking! Don't be late!!</span>
+                        <span> <i class="fas fa-gift pe-2"></i>20% off on next booking.</span>
                     </div>
-                    <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast"
+                    <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"
                         aria-label="Close"></button>
                 </div>
             </div>
@@ -348,13 +348,6 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
-    <script>
-        window.onload = (event) => {
-            let myAlert = document.querySelector('.toast');
-            let bsAlert = new bootstrap.Toast(myAlert);
-            bsAlert.show();
-        }
-    </script>
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/def126c5dc.js" crossorigin="anonymous"></script>
 </body>
