@@ -48,6 +48,11 @@
     right: 20px;
 
 }
+
+.card-custom-style{
+    background-color:#e7f1ff;
+    border-radius: 10px;
+}
 .card-btn{
     background-color: #fef5fa;
     color: #4169e1;
