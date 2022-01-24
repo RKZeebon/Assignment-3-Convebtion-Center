@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
 
 .nav-area{
     height: 65px;
@@ -57,8 +60,18 @@
     background-color: #4169e1;
     color: white;
     padding: 15px 10px;
+    border-radius: 5px;
     
 }
+
+
+.map-area h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5rem;
+    
+}
+
+
 .footer-custom-style{
 
     height: 300px;
