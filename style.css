@@ -2,10 +2,6 @@
 
 
 
-.nav-area{
-    height: 65px;
-}
-
 .carousel-custom-style::before {
     content: "";
     display: block;
